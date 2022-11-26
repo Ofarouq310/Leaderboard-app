@@ -18,7 +18,7 @@
             <div class="table-container">
                 <div class="table-header">
                     <h2>Recent scores</h2>
-                    <button id="refresh">Refresh</button>
+                    <button id="refresh-btn">Refresh</button>
                 </div>
                 <table>
                     <thead>
@@ -28,22 +28,8 @@
                             <th>SCORE</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>User 1</td>
-                            <td>100</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>User 2</td>
-                            <td>100</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>User 3</td>
-                            <td>100</td>
-                        </tr>
+                    <tbody id="leaderboard-list">
+                       
                     </tbody>
                 </table>
             </div>
@@ -51,12 +37,14 @@
             <div class="new-inputs">
                 <form action="">
                     <h2 id="from-header">Add your score</h2>
-                    <input type="text" placeholder="Name">
-                    <input type="number" placeholder="Score">
+                    <input type="text" placeholder="Name" id="user-name">
+                    <input type="number" placeholder="Score" id="user-score">
                     <button type="submit">Submit</button>
                 </form>
+                <span id="message"></span>
             </div>
         </div>
     </div>
+    <script type="module" src="index.js"></script>
 </body>
 </html>
