@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <img src="./images/badges_0004_leaderboard-300x300.png" alt="leaderboard" id="trophy-img">
+            <h1>LEADERBOARDS</h1> 
+        </div>
+
+        <div class="main">
+            <div class="table-container">
+                <div class="table-header">
+                    <h2>Recent scores</h2>
+                    <button id="refresh">Refresh</button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th>SCORE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>User 1</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>User 2</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>User 3</td>
+                            <td>100</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="new-inputs">
+                <form action="">
+                    <h2 id="from-header">Add your score</h2>
+                    <input type="text" placeholder="Name">
+                    <input type="number" placeholder="Score">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

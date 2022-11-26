@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://ofarouq310.github.io/Leaderboard-app/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,77 +73,23 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- Use `git clone` to clone the repository using the HTTPS link into your local machine
 
 ### Setup
 
-- Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+- `cd` into your local repository
 
 ### Install
 
-- Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+- `npm install` - Installs the necessary dependencies
 
 ### Usage
 
-- To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-- To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+- `npm run build` - Builds development files into production code
 
 ### Deployment
 
-- You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+- `npm start` - Starts the development server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
