@@ -1,4 +1,4 @@
-// import './style.css';
+import './style.css';
 import addNewScore from './modules/add-score.js';
 import getScoresList from './modules/get-scores.js';
 import refresh from './modules/refresh.js';
